@@ -5,7 +5,7 @@ from flask import Flask, request, Response
 
 f = Flask(__name__)
 
-model_engine = "text-davinci-002"
+model_engine = "text-davinci-003"
 openai.api_key = os.environ.get("OPENAI_APIKEY")
 TOKEN = os.environ.get("TOKEN")
 
